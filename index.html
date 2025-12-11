@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>ParkFácil</title>
+    <link rel="stylesheet" href="/css/style2.css">
+</head>
+<body>
+
+    <h1>ParkFácil</h1>
+
+    <div class="caixa">
+
+        <label>Tipo de veículo:</label>
+        <select id="tipo">
+            <option value="carro">Carro</option>
+            <option value="moto">Moto</option>
+        </select>
+
+        <label>Horas estacionadas:</label>
+        <input type="number" id="horas" min="1">
+
+        <label>
+            <input type="checkbox" id="mensalista">
+            Mensalista (10% off)
+        </label>
+
+        <button id="btnCalcular">Calcular</button>
+
+        <p id="resultado"></p>
+    </div>
+
+    <!-- JS na pasta separada -->
+    <script src="/js/script2.js"></script>
+</body>
+</html>
